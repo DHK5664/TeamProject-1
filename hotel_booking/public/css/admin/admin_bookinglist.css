@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.e_sub2{
+	display: block;
+}
+
+.e_contents{
+	width: 890px;	
+}
+
+.e_con_title{
+	display: flex;
+	padding: 0 10px;
+	height: 54px;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.e_wide{margin: 0px; padding-right: 10px;}
+.e_title_name{margin: 0px;}
+.e_on_title img{
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.e_title_name{
+	font-size: 20px;
+	padding-left: 10px;
+	height :54px;
+	line-height: 54px;
+	border-left: 1px solid #ccc;
+}
+
+.e_booking_list{
+	width: 890px;
+	padding: 0 10px;
+}
+
+.e_list_table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: 20px;
+	width: 850px;
+	
+}
+
+.e_list_table th{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	background-color: #D3C09A;
+}
+
+.e_list_table td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* ----------------------------------------------- */
+.e_ad_wrap{position: relative;}
+.e_booking_modal{
+	border : 1px solid black;
+	position: absolute;
+	left: 320px;
+	top: 10%;
+	background-color: white;
+	width: 890px;
+	height: 200px;
+	display: none;
+}
+
+.e_modal_table{
+	
+	border-collapse : collapse;
+	width: 100%;
+	height: 200px;
+}
+
+.e_modal_table thead th{
+	border-bottom: 1px solid black;
+	background-color: #D3C09A;
+	text-align: left;
+	padding: 10px 30px;
+}
+#e_close{text-align: right !important;}
+
+.e_modal_table tbody th{
+	padding: 5px 0;
+	padding-bottom : 10px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.e_modal_table tbody td{
+	padding: 5px 0;
+	padding-bottom : 10px;
+	text-align: left;
+	
+}
+
+.e_modal_table tbody td input{
+	height: 22px;
+}
+
+#e_roomtype{
+	text-align: left !important;
+	padding: 5px 25px;
+}
+
+.e_b_ch{
+	text-align: right !important;
+}
+
+.e_ch_but{
+	padding: 5px 10px;;
+	margin-right: 40px;
+}
